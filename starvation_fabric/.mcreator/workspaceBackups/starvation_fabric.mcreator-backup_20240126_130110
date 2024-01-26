@@ -1,0 +1,203 @@
+{
+  "mod_elements": [
+    {
+      "name": "StarvePlayer",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starve_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/StarvePlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConfigWrite",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_write",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/ConfigWriteProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "OnPlayerRespawn",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_respawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/OnPlayerRespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnPlayerJoinWorld",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_join_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/OnPlayerJoinWorldProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnBlockBroken",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_block_broken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/OnBlockBrokenProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "StarvePlayerBelow",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starve_player_below",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/StarvePlayerBelowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnPlayerGoesToBed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_goes_to_bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/OnPlayerGoesToBedProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "StarvePlayerHighDmgPeaceful",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starve_player_high_dmg_peaceful",
+      "metadata": {
+        "files": [
+          "src/main/java/net/haipadev/starvation/procedures/StarvePlayerHighDmgPeacefulProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "pl_pl": {
+      "death.attack.starvation": "%1$s zmarł z głodu."
+    },
+    "en_us": {
+      "death.attack.starvation": "%1$s starved to death."
+    },
+    "ja_jp": {
+      "death.attack.starvation": "%1$s が餓死しました。"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "starvation",
+    "modName": "Starvation",
+    "version": "1.0.0",
+    "description": "Starve to death on any difficulty, or dont (configurable)",
+    "author": "HaipaDev, MCreator",
+    "websiteURL": "https://modrinth.com/mod/starvation",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "starvation_icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.haipadev.starvation",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
