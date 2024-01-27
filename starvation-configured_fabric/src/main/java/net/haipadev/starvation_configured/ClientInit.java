@@ -10,7 +10,7 @@
 *	will be REGENERATED on each build.
 *
 */
-package net.haipadev.starvation;
+package net.haipadev.starvation_configured;
 
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;

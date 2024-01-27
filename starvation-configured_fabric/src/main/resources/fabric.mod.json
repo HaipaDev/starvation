@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "starvation",
+  "id": "starvation_configured",
   "version": "1.0.0",
-  "name": "Starvation",
+  "name": "Starvation Configured",
   "description": "Starve to death on any difficulty, or dont (configurable)",
   "authors": [
     "HaipaDev, MCreator"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/starvation",
+    "homepage": "https://modrinth.com/mod/starvation-configured",
     "sources": ""
   },
   "license": "MIT License",
-  "icon": "assets/starvation/icon.png",
+  "icon": "assets/starvation_configured/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.haipadev.starvation.StarvationMod"
+      "net.haipadev.starvation_configured.StarvationConfiguredMod"
     ],
     "client": [
-      "net.haipadev.starvation.ClientInit"
+      "net.haipadev.starvation_configured.ClientInit"
     ]
   },
   "depends": {

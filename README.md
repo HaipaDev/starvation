@@ -26,7 +26,7 @@ Default values:
 }
 ```
 First of all it uses "faked" starvation custom damage, that is only localized in English, Polish and Japanese with ` %1$s starved to death. ` (for the localization to work its required on the client!)
-If you know how to get your own language in, go ahead, if you want to contribute a translation or whatever else; also go ahead Ill probably accept a [https://github.com/HaipaDev/starvation/pulls](pr)
+If you know how to get your own language in, go ahead, if you want to contribute a translation or whatever else; also go ahead Ill probably accept a [https://github.com/HaipaDev/starvation-configured/pulls](pr)
 
 Unfortunately on Easy and Peaceful it can be a bit scuffed and possibly cheesable because its counting a timer to deal damage above the vanilla limit after vanilla did its thing, I cannot make the check run on player based ticks or whatever.
 

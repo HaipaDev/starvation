@@ -1,4 +1,4 @@
-package net.haipadev.starvation.procedures;
+package net.haipadev.starvation_configured.procedures;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 

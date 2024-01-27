@@ -165,8 +165,14 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "pl_pl": {
+      "death.attack.starvation": "%1$s zmarł z głodu."
+    },
     "en_us": {
       "death.attack.starvation": "%1$s starved to death."
+    },
+    "ja_jp": {
+      "death.attack.starvation": "%1$s が餓死しました。"
     }
   },
   "foldersRoot": {
@@ -174,12 +180,12 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "starvation",
-    "modName": "Starvation",
+    "modid": "starvation_configured",
+    "modName": "Starvation Configured",
     "version": "1.0.0",
-    "description": "Starve to death on any difficulty (configurable)",
+    "description": "Starve to death on any difficulty, or dont (configurable)",
     "author": "HaipaDev, MCreator",
-    "websiteURL": "https://modrinth.com/mod/starvation",
+    "websiteURL": "https://modrinth.com/mod/starvation-configured",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -190,7 +196,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.haipadev.starvation",
+    "modElementsPackage": "net.haipadev.starvation_configured",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300336712

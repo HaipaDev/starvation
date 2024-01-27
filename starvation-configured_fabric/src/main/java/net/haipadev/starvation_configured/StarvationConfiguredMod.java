@@ -10,24 +10,24 @@
  *	will be REGENERATED on each build.
  *
  */
-package net.haipadev.starvation;
+package net.haipadev.starvation_configured;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
-import net.haipadev.starvation.init.StarvationModProcedures;
+import net.haipadev.starvation_configured.init.StarvationConfiguredModProcedures;
 
 import net.fabricmc.api.ModInitializer;
 
-public class StarvationMod implements ModInitializer {
+public class StarvationConfiguredMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
-	public static final String MODID = "starvation";
+	public static final String MODID = "starvation_configured";
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing StarvationMod");
+		LOGGER.info("Initializing StarvationConfiguredMod");
 
-		StarvationModProcedures.load();
+		StarvationConfiguredModProcedures.load();
 
 	}
 }
